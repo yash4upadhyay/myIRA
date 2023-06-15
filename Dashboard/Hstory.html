@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstarp css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- bootstarp js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- main css -->
+    <link rel="stylesheet" href="/Account Forms/Form.css" />
+    <title>History</title>
+</head>
+
+<body>
+    <div class="page_main" id="page_main">
+        <div class="side__bar" id="side_bar_open">
+            <img src="/images/USMR_Horizontal_WhiteGold.png" alt="logo" width="176px" height="36px" />
+            <div class="side_bar_list">
+                <a href="/Dashboard/Dashboard1.html">
+                <div class="bar_link_other">
+                    <img src="/images/space_dashboard.png" alt="" />Dashboard
+                </div>
+            </a>
+                <div class="bar_link_other">
+                    <img src="/images/person.png" alt="" />&nbsp;My Account
+                </div>
+                <a href="/Dashboard/Assets.html">
+                <div class="bar_link_other">
+                    <img src="/images/asests.png" alt="" />Assets
+                </div>
+            </a>
+            <a href="/Dashboard/Hstory.html">
+                <div class="bar_link">
+                    <img src="/images/history_hover.png" alt="" />History
+                </div>
+            </a>
+                <div class="bar_link_other">
+                    <img src="/images/help.png" alt="" />Get Help
+                </div>
+                <div class="bar_link_others">
+                    <img src="/images/loguot.png" alt="" />&nbsp;&nbsp;Log out
+                </div>
+            </div>
+        </div>
+        <div class="empty"></div>
+        <div class="nav-bar">
+            <img src="/images/USMR_Horizontal_WhiteGold.png" class="logo" />
+            <img src="/images/menu.png" class="menu" id="menu_button" />
+        </div>
+        <div class="form__page">
+            <div class="header">
+                <div class="open">
+                    <h1>Orders History</h1>
+                </div>
+            </div>
+            <div class="recent_transactions">
+                <table class="new_table">
+                    <thead>
+                        <tr class="t__head">
+                            <th class="left_part ">
+                                <h1>Recent transactions</h1>
+                            </th>
+                            <th class="right_part">
+                                <img src="/images/download (1).png" alt="">
+                                <img src="/images/print.png" alt="">
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t__row">
+                            <th class="left_part t_head">
+                                <h5>mm/dd/yyyy</h5>
+                                <h6>Transaction title goes here</h6>
+                            </th>
+                            <th class=" t_right">
+                                <h2>$ xx,xxx.xxx</h2>
+                                <h1>View Details</h1>
+                            </th>
+                        </tr>
+                        <tr class="trow">
+                            <th class="left_part t_head">
+                                <h5>mm/dd/yyyy</h5>
+                                <h6>Transaction title goes here</h6>
+                            </th>
+                            <th class=" t_right">
+                                <h2>$ xx,xxx.xxx</h2>
+                                <h1>View Details</h1>
+                            </th>
+                        </tr>
+                        <tr class="t__row">
+                            <th class="left_part t_head">
+                                <h5>mm/dd/yyyy</h5>
+                                <h6>Transaction title goes here</h6>
+                            </th>
+                            <th class=" t_right">
+                                <h2>$ xx,xxx.xxx</h2>
+                                <h1>View Details</h1>
+                            </th>
+                        </tr>
+                        <tr class="trow">
+                            <th class="left_part t_head">
+                                <h5>mm/dd/yyyy</h5>
+                                <h6>Transaction title goes here</h6>
+                            </th>
+                            <th class=" t_right">
+                                <h2>$ xx,xxx.xxx</h2>
+                                <h1>View Details</h1>
+                            </th>
+                        </tr>
+                        <tr class="t__row">
+                            <th class="left_part t_head">
+                                <h5>mm/dd/yyyy</h5>
+                                <h6>Transaction title goes here</h6>
+                            </th>
+                            <th class=" t_right">
+                                <h2>$ xx,xxx.xxx</h2>
+                                <h1>View Details</h1>
+                            </th>
+                        </tr>
+                        <tr class="trow">
+                            <th class="left_part t_head">
+                                <h5>mm/dd/yyyy</h5>
+                                <h6>Transaction title goes here</h6>
+                            </th>
+                            <th class=" t_right">
+                                <h2>$ xx,xxx.xxx</h2>
+                                <h1>View Details</h1>
+                            </th>
+                        </tr>
+                        <tr class="t__row">
+                            <th class="left_part t_head">
+                                <h5>mm/dd/yyyy</h5>
+                                <h6>Transaction title goes here</h6>
+                            </th>
+                            <th class=" t_right">
+                                <h2>$ xx,xxx.xxx</h2>
+                                <h1>View Details</h1>
+                            </th>
+                        </tr>
+                    </tbody>
+                   
+                </table>
+            </div>
+
+            <div class="accordians">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <button class="accordion-button head_fund_button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne" style="background-color: #fff;width: 100%;">
+                            <div class="acc-head ">
+                                <h3>205348188 - Order Summary</h3>
+                            </div>
+                        </button>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <table>
+                                    <tbody>
+
+                                        <tr class="t__row">
+                                            <td class="left_part t_head">
+                                                <h5>IRA Account #</h5>
+                                            </td>
+                                            <td class="t_right">
+                                                <h6>205348188s</h6>
+                                            </td>
+                                        </tr>
+                                        <tr class="trow">
+                                            <td class="left_part t_head">
+                                                <h5>Activity ID #</h5>
+                                            </td>
+                                            <td class="t_right">
+                                                <h6>AS13975090</h6>
+                                            </td>
+                                        </tr>
+                                        <tr class="t__row">
+                                            <td class="left_part t_head">
+                                                <h5>Date Executed</h5>
+                                            </td>
+                                            <td class="right_part t_right">
+                                                <h6>12/27/2023</h6>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="graph_data">
+                                    <div class="left_wing">
+                                        <div class="top_left">
+                                            <div class="type_mod">
+                                                <h5>Moderate</h5>
+                                                <h6>Risk</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>Gold, Silver</h5>
+                                                <h6>Metals</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>$300r</h5>
+                                                <h6>Reminder</h6>
+                                            </div>
+                                        </div>
+                                        <div class="bottom_left">
+                                            <div class="type_mod">
+                                                <h5>$108,000</h5>
+                                                <h6>Limit</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>$107,700</h5>
+                                                <h6>Amount</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>XXXX%</h5>
+                                                <h6>Fulfilled</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right_wing">
+                                        <div class="left_right">
+                                            <img src="/images/Group 2.png" alt="">
+                                            <div class="type_mode">
+                                                <h5>$107,700</h5>
+                                                <h6>Amount</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right_right">
+                                            <div class="top_right">
+                                                <div class="type_mod_two">
+                                                    <h6> 75% Gold</h6>
+                                                    <h5>$80,775</h5>
+                                                </div>
+                                            </div>
+                                            <div class="bottom_right">
+                                                <div class="type_mod_two">
+                                                    <h6> 25% Silver</h6>
+                                                    <h5>$26,925</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="summary_table">
+                                    <h2>Order Details</h2>
+                                    <table class="new_table">
+                                        <tr class="table_head">
+                                            <th>Item</th>
+                                            <th class="eligible">Buyback Eligible</th>
+                                            <th class="share">Share</th>
+                                            <th class="share">Price</th>
+                                            <th class="share">Qantity</th>
+                                            <th class="share">Subtotal</th>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Gold.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Gold.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Cart 5.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Cart 5.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="accordians">
+                <div class="accordion" id="accordionPanelsStayOpenExampleTwo">
+                    <div class="accordion-item">
+                        <button class="accordion-button head_fund_button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo" style="background-color: #fff;width: 100%;">
+                            <div class="acc-head ">
+                                <h3>409847612 - Order Summary</h3>
+                            </div>
+                        </button>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <table>
+                                    <tbody>
+
+                                        <tr class="t__row">
+                                            <td class="left_part t_head">
+                                                <h5>IRA Account #</h5>
+                                            </td>
+                                            <td class="t_right">
+                                                <h6>205348188s</h6>
+                                            </td>
+                                        </tr>
+                                        <tr class="trow">
+                                            <td class="left_part t_head">
+                                                <h5>Activity ID #</h5>
+                                            </td>
+                                            <td class="t_right">
+                                                <h6>AS13975090</h6>
+                                            </td>
+                                        </tr>
+                                        <tr class="t__row">
+                                            <td class="left_part t_head">
+                                                <h5>Date Executed</h5>
+                                            </td>
+                                            <td class="right_part t_right">
+                                                <h6>12/27/2023</h6>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="graph_data">
+                                    <div class="left_wing">
+                                        <div class="top_left">
+                                            <div class="type_mod">
+                                                <h5>Moderate</h5>
+                                                <h6>Risk</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>Gold, Silver</h5>
+                                                <h6>Metals</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>$300r</h5>
+                                                <h6>Reminder</h6>
+                                            </div>
+                                        </div>
+                                        <div class="bottom_left">
+                                            <div class="type_mod">
+                                                <h5>$108,000</h5>
+                                                <h6>Limit</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>$107,700</h5>
+                                                <h6>Amount</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>XXXX%</h5>
+                                                <h6>Fulfilled</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right_wing">
+                                        <div class="left_right">
+                                            <img src="/images/Group 2.png" alt="">
+                                            <div class="type_mode">
+                                                <h5>$107,700</h5>
+                                                <h6>Amount</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right_right">
+                                            <div class="top_right">
+                                                <div class="type_mod_two">
+                                                    <h6> 75% Gold</h6>
+                                                    <h5>$80,775</h5>
+                                                </div>
+                                            </div>
+                                            <div class="bottom_right">
+                                                <div class="type_mod_two">
+                                                    <h6> 25% Silver</h6>
+                                                    <h5>$26,925</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="summary_table">
+                                    <h2>Order Details</h2>
+                                    <table class="new_table">
+                                        <tr class="table_head">
+                                            <th>Item</th>
+                                            <th class="eligible">Buyback Eligible</th>
+                                            <th class="share">Share</th>
+                                            <th class="share">Price</th>
+                                            <th class="share">Qantity</th>
+                                            <th class="share">Subtotal</th>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Gold.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Gold.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Cart 5.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Cart 5.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="accordians bott_acc">
+                <div class="accordion" id="accordionPanelsStayOpenExampleThree">
+                    <div class="accordion-item">
+                        <button class="accordion-button head_fund_button collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree" style="background-color: #fff;width: 100%;">
+                            <div class="acc-head ">
+                                <h3>830293878 - Order Summary</h3>
+                            </div>
+                        </button>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <table>
+                                    <tbody>
+
+                                        <tr class="t__row">
+                                            <td class="left_part t_head">
+                                                <h5>IRA Account #</h5>
+                                            </td>
+                                            <td class="t_right">
+                                                <h6>205348188s</h6>
+                                            </td>
+                                        </tr>
+                                        <tr class="trow">
+                                            <td class="left_part t_head">
+                                                <h5>Activity ID #</h5>
+                                            </td>
+                                            <td class="t_right">
+                                                <h6>AS13975090</h6>
+                                            </td>
+                                        </tr>
+                                        <tr class="t__row">
+                                            <td class="left_part t_head">
+                                                <h5>Date Executed</h5>
+                                            </td>
+                                            <td class="right_part t_right">
+                                                <h6>12/27/2023</h6>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="graph_data">
+                                    <div class="left_wing">
+                                        <div class="top_left">
+                                            <div class="type_mod">
+                                                <h5>Moderate</h5>
+                                                <h6>Risk</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>Gold, Silver</h5>
+                                                <h6>Metals</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>$300r</h5>
+                                                <h6>Reminder</h6>
+                                            </div>
+                                        </div>
+                                        <div class="bottom_left">
+                                            <div class="type_mod">
+                                                <h5>$108,000</h5>
+                                                <h6>Limit</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>$107,700</h5>
+                                                <h6>Amount</h6>
+                                            </div>
+                                            <div class="type_mod">
+                                                <h5>XXXX%</h5>
+                                                <h6>Fulfilled</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right_wing">
+                                        <div class="left_right">
+                                            <img src="/images/Group 2.png" alt="">
+                                            <div class="type_mode">
+                                                <h5>$107,700</h5>
+                                                <h6>Amount</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right_right">
+                                            <div class="top_right">
+                                                <div class="type_mod_two">
+                                                    <h6> 75% Gold</h6>
+                                                    <h5>$80,775</h5>
+                                                </div>
+                                            </div>
+                                            <div class="bottom_right">
+                                                <div class="type_mod_two">
+                                                    <h6> 25% Silver</h6>
+                                                    <h5>$26,925</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="summary_table">
+                                    <h2>Order Details</h2>
+                                    <table class="new_table">
+                                        <tr class="table_head">
+                                            <th>Item</th>
+                                            <th class="eligible">Buyback Eligible</th>
+                                            <th class="share">Share</th>
+                                            <th class="share">Price</th>
+                                            <th class="share">Qantity</th>
+                                            <th class="share">Subtotal</th>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Gold.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Gold.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Cart 5.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+                                        <tr class="table_body">
+                                            <td class="item_name"><img src="/images/Cart 5.png" alt="">
+                                                <h6>oz. Gold American
+                                                    Eagle Coin</h6>
+                                            </td>
+                                            <td class="byback_img"><img
+                                                    src="/images/CleanShot 2022-12-11 at 15.26 4.png" alt=""></td>
+                                            <td class="share">XX.XX%</td>
+                                            <td class="share">$1,917.44</td>
+                                            <td class="share">4</td>
+                                            <td class="share">$7,669.76</td>
+                                        </tr>
+
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <script>
+                console.log("Hello");
+                let toggleButton = document.getElementById("menu_button");
+                let menu = document.getElementById("side_bar_open");
+                let page_main = document.getElementById("page_main");
+                toggleButton.addEventListener("click", (e) => {
+                    console.log("Hello");
+                    menu.className = "side__bar open_sidebar";
+                    e.stopPropagation();
+                });
+                menu.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                });
+                page_main.addEventListener("click", (e) => {
+                    console.log("hello ");
+                    menu.className = "side__bar";
+                    e.stopPropagation();
+                });
+            </script>
+</body>
+
+</html>

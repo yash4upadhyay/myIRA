@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstarp css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstarp js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="Form.css" />
+    <title>Screen 7/8</title>
+  </head>
+  <body>
+    <div class="page_main" id="page_main">
+      <div class="side__bar" id="side_bar_open">
+        <img
+          src="/images/USMR_Horizontal_WhiteGold.png"
+          alt="logo"
+          width="176px"
+          height="36px"
+        />
+        <div class="side_bar_list">
+          <div class="bar_link_other">
+            <img src="/images/space_dashboard.png" alt="" />Dashboard
+          </div>
+          <div class="bar_link">
+            <img src="/images/person_filled.png" alt="" />&nbsp;My Account
+          </div>
+          <div class="bar_link_other">
+            <img src="/images/asests.png" alt="" />Assets
+          </div>
+          <div class="bar_link_other">
+            <img src="/images/history.png" alt="" />History
+          </div>
+          <div class="bar_link_other">
+            <img src="/images/help.png" alt="" />Get Help
+          </div>
+          <div class="bar_link_others">
+            <img src="/images/loguot.png" alt="" />&nbsp;&nbsp;Log out
+          </div>
+        </div>
+      </div>
+      <div class="empty"></div>
+      <div class="nav-bar">
+        <img src="/images/USMR_Horizontal_WhiteGold.png" class="logo" />
+        <img src="/images/menu.png" class="menu" id="menu_button" />
+      </div>
+      <div class="form__page">
+        <div class="header">
+          <div class="open">
+            <h1>Open Your Account</h1>
+            <div class="main__div">
+              <div class="progress-bar">
+                <div class="sliderSeventh"></div>
+              </div>
+              <span>7/8</span>
+            </div>
+          </div>
+          <button><a> Need help?</a></button>
+        </div>
+        <div class="setup__helper">
+          <div class="left_img">
+            <img src="/images/helper.png" alt="" />
+          </div>
+          <div class="right_helper">
+            <h2>Account Setup Helper</h2>
+            <p>
+              You can choose up to three beneficiaries for vour precious metals IRA account. Please indicate whether they are the main beneficiary or a secondary one, and what percentage each beneficiary is entitled to. If you're married and choose someone other than your spouse as a beneficiary, your spouse must sign and agree to it.
+            </p>
+          </div>
+        </div>
+        <div class="communication">
+          <h1>Account Authorizations</h1>
+          <h4>
+            The following individual(s) or entity(ies) shall be my primary
+            and/or contingent beneficiary(ies). If a beneficiary is being added
+            the following information is required: Name, Date of Birth,
+            Relationship to the Account Holder, Type of Beneficiary (primary or
+            contingent), and Percentage. The sum of all beneficiary percentages
+            for each Type of Beneficiary must equal 100%. If any primary or
+            contingent beneficiary dies before I do, his or her interest and the
+            interest of his or her heirs shall terminate completely, and the
+            percentage share of any remaining beneficiary (ies) shall be
+            increased on a prorata basis. If no primary beneficiary(ies)
+            survives me, the contingent beneficiary (ies) shall acquire the
+            designated share of my IRA. <br /><br />
+            This section should be reviewed if either the trust or the residence
+            of the IRA holder is located in a community or marital property
+            state and the IRA holder is married. Due to the important tax
+            consequences of giving up one's community property interest,
+            individuals signing this section should consult with a competent tax
+            or legal advisor.
+          </h4>
+
+          <div class="marital">
+            <label>Current marital status <span>*</span> </label>
+            <!-- 
+                    <div class="radio___buts">
+                    </div> -->
+            <div class="button_radio">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  <samp> I am not married </samp> I understand that if I become
+                  married in the future, I must complete a new Change of
+                  Beneficiary form.
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  <samp> I am not married </samp>I understand that if I choose
+                  to designate a primary beneficiary other than my spouse, my
+                  spouse will be required to sign.
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="table_main" style="overflow-x: auto">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="sr_no">#</th>
+                  <th>First name</th>
+                  <th>Last name</th>
+                  <th>Date of birth</th>
+                  <th>Beneficiary type</th>
+                  <th>Spouse</th>
+                  <th>Share %</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="sr_no">1</th>
+                  <td>
+                    <input
+                      class="form-control first_name"
+                      type="text"
+                      placeholder="John"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      class="form-control first_name"
+                      type="text"
+                      placeholder="Deo"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      class="form-control first_name"
+                      type="date"
+                      placeholder="MM/DD/YY"
+                    />
+                  </td>
+                  <td>
+                    <select class="form-select first_name">
+                      <option selected class="option">Select</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-select first_name">
+                      <option selected class="option">Select</option>
+                      <option value="1">Yes</option>
+                      <option value="2">No</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      class="form-control type__two"
+                      type="text"
+                      placeholder="xx.xx%"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="sr_no">2</th>
+                  <td>
+                    <input
+                      class="form-control first_name"
+                      type="text"
+                      placeholder="John"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      class="form-control first_name"
+                      type="text"
+                      placeholder="Deo"
+                    />
+                  </td>
+                  <td>
+                    <input
+                      class="form-control first_name"
+                      type="date"
+                      placeholder="MM/DD/YY"
+                    />
+                  </td>
+                  <td>
+                    <select class="form-select first_name">
+                      <option selected class="option">Select</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="form-select first_name">
+                      <option selected class="option">Select</option>
+                      <option value="1">Yes</option>
+                      <option value="2">No</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input
+                      class="form-control type__two"
+                      type="text"
+                      placeholder="xx.xx%"
+                    />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="back__next">
+            <a href="/Account Forms/6thAccForm.html">
+              <button class="back">
+                  <img src="/images/chevron_right.png" alt="" /> Back
+              </button>
+          </a>
+            <a href="/Account Forms/8thAccForm.html">
+              <button class="continue"> Next <img src="/images/right.png" alt=""></button>
+             </a></div>
+        </div>
+        <div class="text_data">
+          <p>
+            The markets for coins are unregulated. Prices can rise or fall and
+            carry some risks. <span>company is not affiliated with the U.S. Government and the U.S.</span> Mint. Past
+            performance of the coin or the market cannot predict future
+            performance. Nothing herein should be considered as tax or
+            retirement advice as U.S. Money Reserve cannot and does not offer
+            tax or financial advice. Clients should consult an attorney or tax
+            advisor for specific tax or legal advice. USMR does not guarantee
+            the performance or service of any depository or IRA custodian.
+            Estimated third-party storage and administrative fees are subject to
+            change at the discretion of the selected independent IRA custodian
+            and depository. Coins enlarged to show detail. All calls recorded
+            for quality assurance. Offer void where prohibited.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      console.log("Hello");
+      let toggleButton = document.getElementById("menu_button");
+      let menu = document.getElementById("side_bar_open");
+      let page_main = document.getElementById("page_main");
+      toggleButton.addEventListener("click", (e) => {
+        console.log("Hello");
+        menu.className = "side__bar open_sidebar";
+        e.stopPropagation();
+      });
+      menu.addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
+      page_main.addEventListener("click", (e) => {
+        console.log("hello ");
+        menu.className = "side__bar";
+        e.stopPropagation();
+      });
+    </script>
+  </body>
+</html>
